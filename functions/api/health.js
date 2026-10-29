@@ -1,1 +1,0 @@
-export async function onRequest({env}){return Response.json({ok:true,database_bound:!!env.DB,service:'Dinesh Poetry API'})}
